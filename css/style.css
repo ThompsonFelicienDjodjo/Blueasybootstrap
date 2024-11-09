@@ -1,0 +1,54 @@
+html, body{
+    margin:0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: "Roboto Thin", sans-serif;
+}
+.firstPage{
+    height: 100vh;
+    background-image:linear-gradient(black, white), url("../images/HERO.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+}
+.colorblue{
+    color: #4bcaff
+}
+.blue, .twitter{
+    background-image: url("../images/fondservices.png");
+}
+.boite{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.letter{
+    letter-spacing: 1.5px;
+}
+.boutton{
+    background-color: #4bcaff;
+    padding: 1em 8em
+}
+.subTitle{
+    color: white;
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0;
+}
+.subTitle::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width:2em;
+    height:2px;
+    background-color: white;
+}
+.p, .noir{
+    color: black;
+}
+.p::before{
+    background-color: black;
+}
